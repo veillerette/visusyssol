@@ -1,0 +1,9 @@
+create Planet
+	diameter 12104
+	parent-distance 108200000
+	rotation-period -5832.5
+	orbital-period 224
+	atmosphere 1.06
+    atmosphereColor 1.0 1.0 0.1
+	texture-day assets/textures/venusmap.jpg
+end

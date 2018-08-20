@@ -1,0 +1,7 @@
+create Planet
+	diameter 2370
+	parent-distance 5906400000
+	rotation-period -153.3
+	orbital-period 90560
+	texture-day assets/textures/plutomap1k.jpg
+end

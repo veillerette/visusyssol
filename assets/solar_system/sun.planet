@@ -1,0 +1,12 @@
+create Sun
+    diameter 1391016
+	satellite load assets/solar_system/sun_satellites/earth.planet
+	satellite load assets/solar_system/sun_satellites/mars.planet
+	satellite load assets/solar_system/sun_satellites/jupyter.planet
+	satellite load assets/solar_system/sun_satellites/mercury.planet
+	satellite load assets/solar_system/sun_satellites/venus.planet
+	satellite load assets/solar_system/sun_satellites/saturn.planet
+	satellite load assets/solar_system/sun_satellites/uranus.planet
+	satellite load assets/solar_system/sun_satellites/neptune.planet
+	satellite load assets/solar_system/asteroid.planet
+end

@@ -1,0 +1,7 @@
+create Planet
+	diameter 4879
+	parent-distance 57900000
+	rotation-period 1407.6
+	orbital-period 88
+	texture-day assets/textures/mercurymap.jpg
+end

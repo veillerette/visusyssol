@@ -1,0 +1,23 @@
+create Planet
+	diameter 6792
+	parent-distance 227900000
+	rotation-period 24.6
+	orbital-period 687
+	texture-day assets/textures/mars_1k_color.jpg
+	atmosphere 1.01
+    atmosphereColor 1.0 0.2 0.2
+    satellite create Obj assets/textures/phobos.obj
+        diameter 2100
+        parent-distance 12384000
+        rotation-period 16.68
+        orbital-period 16.68
+        color 0.7 0.7 0.7
+    end
+    satellite create Obj assets/textures/deimos.obj
+        diameter 1800
+        parent-distance 22131000
+        rotation-period 8.68
+        orbital-period 5.68
+        color 0.7 0.7 0.7
+    end
+end

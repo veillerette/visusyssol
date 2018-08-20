@@ -1,0 +1,11 @@
+create Planet
+	diameter 120536
+	parent-distance 1433500000
+	rotation-period 10.7
+	orbital-period 10747
+	texture-day assets/textures/saturnmap.jpg
+	ring 180536
+    ringtexture assets/textures/saturnringcolor.jpg
+    ringalpha assets/textures/saturnringpattern.gif
+    ringangle 0.33
+end

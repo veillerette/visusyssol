@@ -1,0 +1,35 @@
+create Planet
+	diameter 142984
+	parent-distance 778600000
+	rotation-period 9.9
+	orbital-period 4331
+	texture-day assets/textures/jupiter2_1k.jpg
+	satellite create Planet
+    		diameter 3642
+    		parent-distance 102120000
+    		rotation-period 1.76
+    		orbital-period 1.76
+            texture assets/textures/Io.png
+    end
+    satellite create Planet
+            diameter 3120
+            parent-distance 127120000
+            rotation-period 3.55
+            orbital-period 3.55
+            texture assets/textures/europa.jpg
+    end
+    satellite create Planet
+            diameter 5262
+            parent-distance 167020000
+            rotation-period 7.15
+            orbital-period 7.15
+            texture assets/textures/ganymede.jpg
+    end
+    satellite create Planet
+            diameter 4820
+            parent-distance 238020000
+            rotation-period 16.68
+            orbital-period 16.68
+            texture assets/textures/callisto.jpg
+    end
+end

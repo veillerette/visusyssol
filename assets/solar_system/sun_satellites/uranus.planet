@@ -1,0 +1,47 @@
+create Planet
+	diameter 51118
+	parent-distance 2872500000
+	rotation-period -17.2
+	orbital-period 30589
+	texture-day assets/textures/uranusmap.jpg
+	ring 80118
+    ringtexture assets/textures/uranusringcolour.jpg
+    ringalpha assets/textures/uranusringtrans.gif
+    ringangle 0.0
+
+    satellite create Planet
+            diameter 480
+            parent-distance 58050000.0
+            rotation-period 1.41
+            orbital-period 1.41
+            color 1.0 0.0 0.0
+    end
+    satellite create Planet
+            diameter 1060
+            parent-distance 89550000.0
+            rotation-period 2.52
+            orbital-period 2.52
+            color 0.0 1.0 0.0
+    end
+    satellite create Planet
+            diameter 1160
+            parent-distance 119700000.0
+            rotation-period 4.14
+            orbital-period 4.14
+            color 0.0 0.0 1.0
+    end
+    satellite create Planet
+            diameter 1680
+            parent-distance 196200000.0
+            rotation-period 8.70
+            orbital-period 8.70
+            color 1.0 1.0 0.0
+    end
+    satellite create Planet
+            diameter 1622
+            parent-distance 262350000.0
+            rotation-period 13.46
+            orbital-period 13.46
+            color 1.0 1.0 1.0
+    end
+end

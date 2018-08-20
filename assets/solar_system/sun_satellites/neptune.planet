@@ -1,0 +1,21 @@
+create Planet
+	diameter 49528
+	parent-distance 4495100000
+	rotation-period 16.1
+	orbital-period 59800
+	texture-day assets/textures/neptunemap.jpg
+    satellite create Planet
+            diameter 2706
+            parent-distance 159300000.0
+            rotation-period 5.87
+            orbital-period 5.87
+            color 1.0 1.0 0.0
+    end
+    satellite create Planet
+            diameter 340
+            parent-distance 685350000.0
+            rotation-period 5.87
+            orbital-period 5.87
+            color 0.0 0.0 1.0
+    end
+end

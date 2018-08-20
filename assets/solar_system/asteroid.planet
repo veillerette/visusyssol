@@ -1,0 +1,10 @@
+create Asteroid-ring
+	diameter 650000000 1100000000
+	orbital-period 4000
+	asteroid-diameter 5000 25000
+	asteroid-count 500
+	asteroid-period 100 1000
+	resolution 3
+	cabossages 2000
+	deformation 15
+end

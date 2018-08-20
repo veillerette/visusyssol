@@ -1,0 +1,18 @@
+create Planet
+	diameter 12756
+	parent-distance 149600000
+	rotation-period 24
+	orbital-period 365.2
+	texture-day assets/textures/earthmap1k.jpg
+	texture-night assets/textures/earthlights1k.jpg
+	clouds assets/textures/cloud_combined_2048.jpg
+	atmosphere 1.05
+	atmosphereColor 0.25 0.25 1.0
+	satellite create Planet
+		diameter 3475
+		parent-distance 20384000
+		rotation-period 655.7
+		orbital-period 27.3
+		texture assets/textures/MoonMap.jpg
+	end
+end
